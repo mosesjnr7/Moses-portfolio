@@ -3,7 +3,7 @@
 Welcome to my personal web portfolio! This site showcases my work as a Web Developer & Designer, highlighting my projects, skills, and contact information.
 
  🚀 Live Website
-👉 [Visit my portfolio](https://yourusername.github.io/your-repo-name)
+👉 [Visit my portfolio](https://mosesjnr7.github.io/Moses-portfolio)
 
  📁 Features
 - Responsive design that works on all devices 📱💻
