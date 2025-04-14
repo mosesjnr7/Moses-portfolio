@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moses Aneke - Portfolio</title>
+    <!-- Font Awesome 6 (Working CDN) -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+    <!-- Linking external CSS stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Moses Aneke</h1>
+            <p>Web Developer & Designer</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Moses Aneke, a passionate web developer and designer. I create modern, responsive, and user-friendly websites. I build modern websites using HTML5, CSS, and WordPress that not only look great but work seamlessly on all devices.
+                Whether you need a personal portfolio, business landing page, or a full site, Ill help bring your ideas to life. Lets build something amazing!</p>
+            <img src="https://dribbble.com/shots/12345678" alt="Moses Aneke's Work" class="profile-img">
+        </div>
+    </section>
+
+    <!-- Carousel Section -->
+    <section id="carousel-section">
+        <div class="carousel-container">
+          
+          <!-- One .carousel wrapper for all slides -->
+          <div class="carousel">
+            <!-- Slide 1 -->
+            <div class="slide">
+              <a href="https://www.chevrolet.com" target="_blank">
+                <img src="images/corvette.png" alt="Corvette Image 1" loading="lazy">
+              </a>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="slide">
+              <a href="https://www.mercedes.com" target="_blank">
+                <img src="images/amg-gt63.png" alt="Amg gt63" loading="lazy">
+              </a>
+            </div>
+      
+            <!-- Slide 3 -->
+            <div class="slide">
+              <a href="https://www.Porsche.com" target="_blank">
+                <img src="images/porsche.png" alt="Porsche" loading="lazy">
+              </a>
+            </div>
+          </div>
+      
+          <!-- Navigation buttons -->
+          <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+          <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+      </section>
+      
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project">
+                <img src="https://dribbble.com/shots/12345678" alt="Project 1">
+                <h3>Project 1: Web Design</h3>
+                <p>Description of project 1.</p>
+            </div>
+            <div class="project">
+                <img src="https://dribbble.com/shots/87654321" alt="Project 2">
+                <h3>Project 2: Web App</h3>
+                <p>Description of project 2.</p>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+<!-- Footer Contact Card -->
+
+  <footer class="contact-footer">
+    <div class="contact-card">
+      <h3>📞 Contact Me</h3>
+
+      <div class="contact-info">
+        <i class="fab fa-whatsapp"></i>
+        <a href="https://wa.me/447448436394" target="_blank" id="phone-number">07448436394</a>
+      </div>
+
+      <button class="btn" class="shake" onclick="copyNumber()">Copy Number</button>
+      <p id="copy-msg"></p>
+
+      <div class="contact-info">
+        <i class="fas fa-envelope"></i>
+        <a class="mail" href="mailto:i.m.jnr.7@gmail.com">i.m.jnr.7@gmail.com</a>
+      </div>
+    </div>
+    <div>
+        <p>&copy; 2025 Moses Aneke. All rights reserved.</p>
+    </div>
+  </footer>
+    <!-- JavaScript for Carousel -->
+    <script src="script.js"></script>
+</body>
+</html>
