@@ -310,6 +310,8 @@ footer {
     }
   }
   .video-container {
+  width:640;
+  height:360;
   width: 100%;       /* Match parent div width */
   max-width: 800px;  /* Optional: Set a max width */
   margin: 0 auto;    /* Center the container */
