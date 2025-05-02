@@ -309,4 +309,15 @@ footer {
       padding: 15px;
     }
   }
-  
+  .video-container {
+  width: 100%;       /* Match parent div width */
+  max-width: 800px;  /* Optional: Set a max width */
+  margin: 0 auto;    /* Center the container */
+  overflow: hidden;  /* Hide overflow if video exceeds bounds */
+}
+
+.video-container video {
+  width: 100%;       /* Force video to fill container */
+  height: auto;      /* Maintain aspect ratio */
+  display: block;    /* Remove extra space below video */
+}
